@@ -1,0 +1,37 @@
+<resources>
+<!--you can include additional colors from  www.materialpalette.com-->
+    <!--<color name="primary">#009688</color>-->
+    <!--<color name="primary_dark">#00796B</color>-->
+    <!--<color name="primary_light">#B2DFDB</color>-->
+    <!--<color name="accent">#E040FB</color>-->
+    <!--<color name="primary_text">#212121</color>-->
+    <!--<color name="secondary_text">#757575</color>-->
+    <!--<color name="icons">#FFFFFF</color>-->
+    <!--<color name="divider">#BDBDBD</color>-->
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+<!--you can include additional color properties-->
+        <!--<item name="android:textColor">@color/secondary_text</item>-->
+        <!--<item name="android:icon">@color/icons</item>-->
+        <!--<item name="android:windowBackground">@color/accent</item>-->
+        <!--<item name="cardBackgroundColor">@color/accent</item>-->
+        <!--&lt;!&ndash;backgroud fror API 23 and higher&ndash;&gt;-->
+        <!--this is for changing card cackground for marshmelow and above-->
+        <!--<item name="cardBackgrounFloating">@color/accent</item>-->
+    </style>
+    <!--NoActionBar is replaced with a toolbar-->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>
